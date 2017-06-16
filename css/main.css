@@ -1,0 +1,489 @@
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+	background: linear-gradient(to top, #fff, #efefef);
+	font: 100%/1.5 sans-serif;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+h1 {
+	font-size: 2.1em;
+}
+h2 {
+	font-size: 1.7em;
+	font-weight: 700;
+	margin: 0.7em 0;
+}
+.h2-head {
+	color: #f33;
+} 
+h4 {
+	font-size: 1em;
+	font-weight: 700;
+	line-height: 1.23em;
+}
+h5 {
+	font-size: .8em;
+	margin: .2em 0;
+	font-weight: 700;
+}
+p {
+	font-size: 1em;
+}
+nav {
+    height: 48px;
+    width: auto;
+    max-width: 1280px;
+    background: #fefefd;
+    margin-bottom: 8px;
+}
+nav #right-menu a, #logo-left a {
+	display: inline-block;
+	vertical-align: middle;
+	width: 17px;
+    height: 17px;
+    margin-top: 7px;
+}
+nav #right-menu #facebook-btn {
+    background: url(../img/facebook-3-xxl.png) no-repeat;
+    background-size: 17px 17px;
+}
+nav #right-menu #twiter-btn {
+    background: url(../img/twitter-4-xxl.png) no-repeat;
+    background-size: 17px 17px;
+}
+nav #right-menu #email-btn {
+    background: url(../img/new-post-xxl.png) no-repeat;
+    background-size: 17px 17px;
+}
+nav #right-menu #search-btn {
+    background: url(../img/srch.png) no-repeat;
+    background-size: 17px 17px;
+}
+nav #right-menu #menu-btn {
+    background: url(../img/images.png) no-repeat;
+    background-size: 30px 30px;
+    height: 30px;
+    width: 30px;
+    margin-top: 0;
+}
+nav #right-menu #li-menu {
+	height: 30px;
+	width: 30px;
+	display: none;
+}
+nav #logo-left {
+    float: left;
+}
+nav #right-menu {
+    float: right;
+}
+nav #logo-left li a {
+	color: #999;
+	text-decoration: none;
+}
+nav ul{
+	height: 100%;
+	padding: 10px 0;
+	margin: 0 25px;
+}
+nav li {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}
+.spacer1 {
+    height: 10vh;
+    max-height: 60px;
+    clear: both;
+}
+.spacer2 {
+    height: 10vh;
+    max-height: 40px;
+}
+.spacer3 {
+    height: 10vh;
+    max-height: 15px;
+}
+.side-space {
+    max-width: 94%;
+    margin: 0 auto;
+}
+#top-imgs {
+	max-height: 525px;
+	height: 75vh;
+	width: 100%;
+	padding: 3px 7px;
+}
+ .gradient {
+	width: 100%;
+	height: 100%;
+	background: #888;
+    background: url(../img/cover-gradient.png) no-repeat;
+    background-size: 100% 100%;
+    opacity: .7;
+}
+.gradient-black:hover {
+    opacity: .2;
+}
+.gradient-black {
+	width: 100%;
+	height: 100%;
+	/*background: linear-gradient(to top ,#000,#fff);*/
+	background: url(../img/image-gradient.png);
+	opacity: .8;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.header {
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+    width: 95%;
+    color: #fff;
+}
+#top-imgs p {
+	position: absolute;
+	top: 3%;
+	right: 3%;
+	color: #fff;
+	font-size: .9em;
+}
+.header li {
+	display: inline-block;
+	font-size: 0.8em;
+}
+.header a {
+	color: #fff;
+}
+.header h2 {
+	font-size: 2.4em;
+	line-height: 1.2em;
+}
+.header h5 {
+	font-size: 1em;
+	margin-bottom: -1.4em;
+}
+#top-imgs  #left-img {
+	position: relative;
+    height: 100%;
+    width: 66%;
+    background: url('../img/dinosuar-796x448.jpg');
+    background-repeat: no-repeat;
+    background-size: 110% 100%;
+    display: inline-block;
+}
+#top-imgs #row {
+	display: inline-block;
+	width: 33%;
+	height: 100%;
+}
+#top-imgs #row > div {
+	height: 49%;
+	width: 100%;
+	margin: 0 0 10px 0;
+}
+#top-imgs #row > div  h5{
+    font-size: .6em;
+    line-height: 1.3em;
+}
+#top-imgs #row > div  h2{
+    font-size: 1em;
+    line-height: 1.3em;
+}
+#top-imgs #row #r-t-post {
+    background: url(../img/twitter_featured-796x398.jpg);
+    background-size: 110% 100%;
+    position: relative;
+}
+#top-imgs #row #r-b-post {
+    background: url(../img/Archive-Instagram-796x455.jpg);
+    background-size: 110% 100%;
+    position: relative;
+}
+
+/* latest news  */
+#last-news > div {
+	width: 24.5%;
+	padding: 1%;
+	display: inline-block;
+	vertical-align: top;
+}
+#last-news div img {
+	width: 100%;
+	height: 135px;
+	margin-bottom: 10px;
+}
+#last-news div p {
+	color: #aaa;
+	font-size: .9em;
+	margin-top: .4em;
+}
+#last-news h2 {
+	color: #ff1111;
+	font-size: 1.6em;
+	margin-top: 30px;
+}
+#col3 li {
+	padding-left: 1em;
+	text-indent: -.7em;
+}
+#col3 li:before {
+	content: "• ";
+	color: red;
+}
+#col3 > div {
+	display: inline-block;
+	vertical-align: top;
+	width: 33%;
+	padding: 1%;
+}
+#col3 div .img-div {
+	width: 100%;
+	height: 275px;
+	margin-bottom: 6px;
+	background: url(../img/bear-logo-368x276.png);
+	background-size: 100% 100%;
+	position: relative;
+}
+#col3 div .img-div2 {
+	width: 100%;
+	height: 275px;
+	margin-bottom: 6px;
+    background: url(../img/hall-828549_1920-368x276.jpg);
+    background-size: 100% 100%;
+	position: relative;
+}
+#col3 .header2 {
+	position: absolute;
+	bottom: 0;
+	left: 2%;
+	color: #fff;
+}
+.header2 h2 {
+	font-size: 1.1em;
+	line-height: 1.1em;
+}
+#col3 div div img {
+	width: 96px;
+	height: 96px;
+	float: right;
+	margin-top: -19px;
+}
+#col3 .text {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	vertical-align: top;
+	margin: 7px 0;
+	background: #edd;
+	color: #e11;
+}
+#col3 div div {
+	overflow: hidden;
+	margin-bottom: 8px;
+}
+#col3 div ul {
+	clear: both;
+}
+#col3 li {
+	margin: 4px 0;
+	padding-bottom: 8px;
+	padding-top: 5px;
+	border-bottom: 1px solid #aaa;
+	font-size: .85em;
+	color: #333;
+}
+
+/* latest deals */
+
+#latest-deals #lat-header {
+	width: 100%;
+	height: 30px;
+	margin-bottom: 20px;
+}
+#latest-deals #lat-header h2, #lat-header p {
+	width: auto;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 1em;
+	color: #e44;
+}
+#latest-deals #lat-header h2 {
+	float: left;
+	margin: 0;
+}
+#latest-deals #lat-header p {
+	float: right;
+}
+#latest-deals .deal-div {
+	display: inline-block;
+	width: 24.5%;
+	padding: 1%;
+	vertical-align: top;
+}
+#latest-deals .deal-div img{
+	width: 100%;
+	height: 201px;
+}
+
+/* footer */
+footer {
+	width: 100%;
+	background: #555;
+}
+footer li {
+    padding: 0.16em;
+}
+footer .foot-row {
+	padding: 30px;
+}
+footer .foot-col {
+	display: inline-block;
+	width: 28%;
+	vertical-align: top;
+	margin-left: 4%;
+}
+footer #copy-right {
+	display: block;
+	font-size: .7em;
+	width: 40%;
+	margin: 0 auto;
+}
+
+
+/* @media  */
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    #top-imgs {
+	  max-height: 395px;
+	}
+    /* last news */
+    #last-news > div {
+	  width: 32.5%;
+    }
+	/* col3 */
+    #col3 > div {
+	width: 49%;
+	margin-right: 0.65%;
+    }
+     /* latest deal */
+    #latest-deals .deal-div {
+	width: 32.5%;
+    }
+
+    .header h2 {
+	  font-size: 1.8em;
+	  line-height: 1.1em;
+    }
+    footer #copy-right {
+      width: 70%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+  
+	/* nav */
+  .hide {
+     display: none;  
+	}
+  nav #right-menu #li-menu {
+ 	display: inline-block;
+    }
+
+	/*top images */
+	#top-imgs  #left-img {
+    	display: block;
+    	width: 100%;
+    	height: 30vh;
+    	max-height: 200px;
+    	margin-bottom: 10px;
+	}
+	#top-imgs  #left-img h2 {
+		font-size: 1.2em;
+	}
+	.header {
+		width: 100%;
+	}
+	#top-imgs #row {
+		display: block;
+		width: 100%;
+	}
+		#top-imgs #row > div {
+		display: block;
+		width: 100%;
+		height: 30vh;
+		max-height: 200px;
+		margin-bottom: 10px;
+	}
+
+	/* latest news */
+    #last-news > div {
+    	display: block;
+    	width: 100%;
+    	height: auto;
+    }
+    #last-news div img {
+    	width: 72px;
+    	height: 72px;
+    	display: inline-block;
+    	padding: 5px;
+    	vertical-align: top;
+    }
+    #last-news  div div {
+    	display: inline-block;
+    	width: 75%;
+    	padding: 6px;
+    	vertical-align: top;
+    }
+    #last-news h2 {
+	   margin-top: 60px;
+    }
+
+    /* col3 */
+
+    #col3 > div {
+	display: block;
+	width: 100%;
+	padding: 1%;
+    }
+
+    /* last news*/
+  
+    #latest-deals .deal-div {
+	width: 100%;
+	padding: 1%;
+	height: 13vh;
+	min-height: 75px;
+	position: relative;
+    }
+    #latest-deals .deal-div img{
+	width: 72px;
+	height: 72px;
+	position: absolute;
+	top: 0;
+	left: 0;
+    }
+    #latest-deals .deal-div p, .deal-div h4{
+       display: inline-block;
+       vertical-align: top;
+       margin-left: 74px;
+    }
+
+    footer .foot-col {
+	width: 100%;
+	margin: 15px 0 15px 4%;
+    }
+    footer #copy-right {
+      width: 90%;
+    }
+
+}
+
