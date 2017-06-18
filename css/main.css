@@ -358,7 +358,6 @@ footer #copy-right {
 	margin: 0 auto;
 }
 
-
 /* @media  */
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
@@ -388,16 +387,13 @@ footer #copy-right {
     }
 }
 
-@media only screen and (max-width: 767px) {
-  
-	/* nav */
+@media only screen and (max-width: 767px)  {  
   .hide {
      display: none;  
 	}
   nav #right-menu #li-menu {
  	display: inline-block;
     }
-
 	/*top images */
 	#top-imgs  #left-img {
     	display: block;
@@ -416,7 +412,7 @@ footer #copy-right {
 		display: block;
 		width: 100%;
 	}
-		#top-imgs #row > div {
+	#top-imgs #row > div {
 		display: block;
 		width: 100%;
 		height: 30vh;
@@ -486,4 +482,5 @@ footer #copy-right {
     }
 
 }
+
 
